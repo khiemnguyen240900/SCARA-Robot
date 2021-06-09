@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/15/21||15:07:00" using="Simscape Multibody Link Version 6.1" from="SolidWorks 27.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="t6_602s_ma_asm" uid="t6_602s_ma_asm" version="282">
+<AssemblyFile name="t6_602s_ma_asm.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="_T6_602S_ARM1_1_2-1" uid="_T6_602S_ARM1_1_2-1" entityUid="_T6_602S_ARM1_1_2*:*Default">
+<Transform>
+<Rotation>0.67727577797385519 0 -0.73572924406326923 0 1 0 0.73572924406326923 0 0.67727577797385519</Rotation>
+<Translation>0 0.19999999999999998 -0.062500000000000028</Translation>
+</Transform>
+</Instance>
+<Instance name="_T6_602S_ARM2_1_2-1" uid="_T6_602S_ARM2_1_2-1" entityUid="_T6_602S_ARM2_1_2*:*Default">
+<Transform>
+<Rotation>0.91597335581376482 0 0.40123909510324401 0 1 0 -0.40123909510324401 0 0.91597335581376482</Rotation>
+<Translation>0.4720073006902904 0.26500000000000012 0.066271253167170641</Translation>
+</Transform>
+</Instance>
+<Instance name="_T6_602S_BASE_1_2-1" uid="_T6_602S_BASE_1_2-1" grounded="true" entityUid="_T6_602S_BASE_1_2*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="_T6_602S_SHAFT_1_2-1" uid="_T6_602S_SHAFT_1_2-1" entityUid="_T6_602S_SHAFT_1_2*:*Default">
+<Transform>
+<Rotation>0.62803516820267824 0 0.77818495712821012 0 1 0 -0.77818495712821012 0 0.62803516820267824</Rotation>
+<Translation>0.47200730069029045 0.48662103543437718 0.066271253167170543</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>_T6_602S_ARM1_1_2-1</Uid>
+</InstancePath>
+<Position>0.13777000000000006 0 -1.0500000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>_T6_602S_BASE_1_2-1</Uid>
+</InstancePath>
+<Position>0.0625 0.19700000000000001 -0.042500000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>_T6_602S_BASE_1_2-1</Uid>
+</InstancePath>
+<Position>0.0625 0.187 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>_T6_602S_ARM1_1_2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>_T6_602S_ARM2_1_2-1</Uid>
+</InstancePath>
+<Position>-0.27500000000000002 -0.019970000000000016 -0.028575000000000017</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>_T6_602S_ARM1_1_2-1</Uid>
+</InstancePath>
+<Position>0.13792577312700011 0.050000000000000017 -1.0419150000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>_T6_602S_ARM1_1_2-1</Uid>
+</InstancePath>
+<Position>0.32500000000000012 0.01999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>_T6_602S_ARM2_1_2-1</Uid>
+</InstancePath>
+<Position>-0.27500000000000002 -0.045000000000000012 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>_T6_602S_ARM2_1_2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>_T6_602S_SHAFT_1_2-1</Uid>
+</InstancePath>
+<Position>0 -0.39900000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="_T6_602S_ARM1_1_2" uid="_T6_602S_ARM1_1_2*:*Default" version="129">
+<ModelUnits mass="kilogram" length="foot"/>
+<PartFile name="_T6_602S_ARM1_1_2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6797076868442242</Mass>
+<CenterOfMass>0.14744459142785965 0.026550814868367349 -1.23066496076181e-07</CenterOfMass>
+<Inertia>0.0019990013876214586 0.019536383196027844 0.018223987949121997 1.0286636491134791e-09 2.431109250394454e-08 0.00046657764207332574</Inertia>
+</MassProperties>
+<GeometryFile name="_T6_602S_ARM1_1_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_T6_602S_ARM2_1_2" uid="_T6_602S_ARM2_1_2*:*Default" version="127">
+<ModelUnits mass="kilogram" length="foot"/>
+<PartFile name="_T6_602S_ARM2_1_2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.5355254400012717</Mass>
+<CenterOfMass>-0.15534440536999841 0.077098728786596737 7.2920572815673134e-06</CenterOfMass>
+<Inertia>0.031732628676326841 0.083984069032237527 0.10022870846526646 -3.650918297860631e-06 6.1888902450492247e-06 0.0058562470191782495</Inertia>
+</MassProperties>
+<GeometryFile name="_T6_602S_ARM2_1_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_T6_602S_BASE_1_2" uid="_T6_602S_BASE_1_2*:*Default" version="113">
+<ModelUnits mass="kilogram" length="foot"/>
+<PartFile name="_T6_602S_BASE_1_2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.629853610884195</Mass>
+<CenterOfMass>0.011706214848665302 0.22021250633453138 -0.00011095060969818376</CenterOfMass>
+<Inertia>0.22933093453472328 0.063336444521209609 0.26065350154034705 8.5869633173431248e-05 -0.00010474836823992058 -0.010595210964643628</Inertia>
+</MassProperties>
+<GeometryFile name="_T6_602S_BASE_1_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_T6_602S_SHAFT_1_2" uid="_T6_602S_SHAFT_1_2*:*Default" version="117">
+<ModelUnits mass="kilogram" length="foot"/>
+<PartFile name="_T6_602S_SHAFT_1_2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.083170674543022377</Mass>
+<CenterOfMass>-0.00011389685946050858 -0.19199070263806808 3.8176856911941594e-05</CenterOfMass>
+<Inertia>0.0015218651739458756 9.0892494558178057e-06 0.00152181174117428 -2.8190566827102144e-08 -4.2008232486472882e-08 -3.5240278098878648e-08</Inertia>
+</MassProperties>
+<GeometryFile name="_T6_602S_SHAFT_1_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
