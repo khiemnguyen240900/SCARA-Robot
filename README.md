@@ -1,11 +1,15 @@
 Topic: SCARA Robot Simulation using MATLAB Simscape, GUIDE and Simulink.
+
 --------------DO NOT DELETE THIS--------------
+
 Author: Nguyen Gia Khiem
 Department of Control Engineering and Automation
 Ho Chi Minh City University of Technology
 Ho Chi Minh City, Vietnam
 Email: khiemiist@gmail.com || khiem.nguyen2409@hcmut.edu.vn
+
 --------------DO NOT DELETE THIS--------------
+
 MATLAB Object Oriented Programming with classes:
 - Class Joint
 - Class Link
